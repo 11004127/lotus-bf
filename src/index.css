@@ -1,0 +1,6 @@
+/* Minimal reset. (Replaces Vite's starter CSS, which set a dark theme and
+   `body { display:flex; place-items:center }` that squeezed the 3-pane layout.) */
+*, *::before, *::after { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin: 0; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+button, input, select, textarea { font: inherit; color: inherit; }
