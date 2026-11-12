@@ -1,0 +1,38 @@
+{
+ "calls_while_typing": [
+  "parse"
+ ],
+ "interpreted_preview": "Interpreted as ((pain OR emotion) AND memory)press Enter to search",
+ "studies_bar": "1 study",
+ "study_titles": [
+  "Memory retrieval and pain"
+ ],
+ "url_after_search": "http://localhost:3000/lotus-bf/?q=%28pain+OR+emotion%29+AND+memory",
+ "syntax_error_preview": "⚠ Query is incomplete: a term or location is expected at the end.",
+ "query_after_term_clicks": "\"default mode\" OR orbitofrontal",
+ "studies_after_term_clicks": "2 studies",
+ "related_terms": [
+  "amygdala\n0.33",
+  "faces\n0.33",
+  "pain\n0.25",
+  "reward\n0.25"
+ ],
+ "loc_or_term_studies": "4 studies",
+ "viewer_summary": "Map from 4 studies · 5 foci · peak ≈ 2.00 foci",
+ "cursor_after_row_click": [
+  "-22",
+  "-4",
+  "-18"
+ ],
+ "value_at_cursor": "value 2.000",
+ "query_after_add_location": "([-22,-4,-18] OR memory) [-22,-4,-18]",
+ "shared_url_titles": [
+  "Orbitofrontal cortex encodes reward value"
+ ],
+ "axial_click_xyz": [
+  "40",
+  "30",
+  "-18"
+ ],
+ "page_errors": []
+}
