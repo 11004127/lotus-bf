@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: lotus-bf
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && npm ci && npm run build
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 120
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: NODE_VERSION
+        value: "20"
+      - key: DB_URL
+        sync: false   # paste your Render Postgres "Internal Database URL" in the dashboard
